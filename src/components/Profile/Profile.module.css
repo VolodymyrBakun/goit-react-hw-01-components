@@ -1,0 +1,21 @@
+.profile {
+    border: 2px solid purple;
+    border-radius: 10px;
+display: flex;
+margin: 10px;
+padding: 10px;
+}
+
+.description {
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 100px;
+};
+
+
