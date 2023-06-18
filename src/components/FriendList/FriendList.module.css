@@ -1,0 +1,21 @@
+.friendList {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.statusDot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.ofline {
+  background-color: red;
+}
