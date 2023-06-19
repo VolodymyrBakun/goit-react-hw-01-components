@@ -6,9 +6,7 @@ export default function Profile({
   tag,
   location,
   avatar,
-  followers,
-  views,
-  likes,
+  stats: { followers, views, likes }
 }) {
   return (
     <div className={css.profile}>
@@ -42,7 +40,9 @@ Profile.propTypes = {
   tag: PropTypes.string,
   location: PropTypes.string,
   avatar: PropTypes.string,
-  followers: PropTypes.number,
-  views: PropTypes.number,
-  likes: PropTypes.number,
+  stats: PropTypes.shape({
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
+  }),
 };
